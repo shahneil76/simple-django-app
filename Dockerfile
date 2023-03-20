@@ -14,7 +14,7 @@ COPY . /app
 ENV PYTHONDONTWRITEBYTECODE 1
 ENV PYTHONUNBUFFERED 1
 
-RUN python manage.py migrate
+#RUN python manage.py migrate
 
 # Expose port 8000 for the Django app
 EXPOSE 8000
